@@ -1,0 +1,65 @@
+#chat2 .form-control {
+border-color: transparent;
+}
+
+#chat2 .form-control:focus {
+border-color: transparent;
+box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.form-contain {
+    display: none;
+}
+
+
+.div-btn {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-group {
+    height: 500px;
+    overflow: auto;
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #888; /* Màu của thanh cuộn */
+    border-radius: 10px; /* Bo tròn các góc của thanh cuộn */
+    border: 2px solid #ccc; /* Đường viền xung quanh thanh cuộn */
+}
+
+.status-activity {
+    width: 12px; height: 12px; background-color: #565050; border-radius: 50%;
+}
+
+.status-activity.online {
+    background-color: #37f810;
+}
+
+.small-text {
+    margin-right: 12px;
+}
+
+.small.text-muted {
+    width: 260px;
+}
+
+.li-add-fr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex.align-self-center.me-3 {
+    height: 60px;
+    width: 60px;
+}
